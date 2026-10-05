@@ -10,7 +10,7 @@ Observar experimentalmente el crecimiento del tiempo de QuickSort con pivote ale
 - Repeticiones: 50 por tamaño; 450 ordenamientos en total.
 - En cada ronda se recorren los nueve tamaños para distribuir entre ellos los cambios de carga del equipo.
 - Cada repetición crea `list(range(n))` y la permuta con `random.shuffle` antes de medir.
-- `time.perf_counter()` mide únicamente la llamada a `sortArray`. La comprobación de que el resultado es `list(range(n))` ocurre después de detener el reloj. Si falla, el experimento se interrumpe sin producir estadísticas.
+- `time.perf_counter()` mide únicamente la llamada a `sortArray`. La comprobación de que el resultado es `list(range(n))` ocurre después de detener el reloj.
 - La media de cada tamaño es la suma de sus 50 tiempos dividida entre 50. Los resultados individuales están en [tiempos_quicksort.csv](data/tiempos_quicksort.csv) y las medias en [medias_quicksort.csv](data/medias_quicksort.csv).
 
 La semilla seudoaleatoria `20261005` permite repetir la secuencia de permutaciones y pivotes. Los tiempos pueden cambiar entre máquinas o ejecuciones por la carga del sistema y el entorno de Python.
