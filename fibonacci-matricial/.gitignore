@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
+
+# Credenciales y configuración local.
+.env
+.env.*
+*.pem
+*.key
+*.swp
+*.swo
+*~
+
+# El reporte académico pertenece al repositorio privado de clases.
+reporte/
+
+# Artefactos generados.
+build/
+*.pdf
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
