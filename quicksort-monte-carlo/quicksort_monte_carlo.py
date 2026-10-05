@@ -28,7 +28,7 @@ IMAGES_DIR = BASE_DIR / "images"
 
 
 class Solution(object):
-    """Adaptación de la implementación in-place estudiada en clase."""
+    """QuickSort in-place con partición Lomuto y pivote aleatorio."""
 
     def sortArray(self, nums):
         self.quickSort(nums, 0, len(nums) - 1)
@@ -41,8 +41,7 @@ class Solution(object):
             self.quickSort(A, p + 1, high)
 
     def partition(self, A, low, high):
-        # Único cambio respecto a la partición Lomuto de clase: elegir
-        # un elemento al azar y trasladarlo a la posición del pivote.
+        # Elegir un elemento al azar y trasladarlo a la posición del pivote.
         random_index = random.randint(low, high)
         A[random_index], A[high] = A[high], A[random_index]
         pivot = A[high]

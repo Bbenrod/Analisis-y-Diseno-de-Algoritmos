@@ -2,7 +2,7 @@
 
 ## Objetivo y algoritmo
 
-Observar experimentalmente el crecimiento del tiempo de QuickSort con pivote aleatorio y compararlo con $n\ln(n)$ y $n^2$. La implementación conserva la clase `Solution` trabajada en la clase 4: `sortArray` llama a `quickSort` con límites `low` y `high`, y `partition` hace una partición de Lomuto sobre el mismo arreglo. La adaptación elige un índice aleatorio del segmento, intercambia su elemento con `A[high]` y continúa la partición original. No se utilizan funciones de ordenamiento incorporadas.
+Observar experimentalmente el crecimiento del tiempo de QuickSort con pivote aleatorio y compararlo con $n\ln(n)$ y $n^2$. La implementación usa la clase `Solution`: `sortArray` llama a `quickSort` con límites `low` y `high`, y `partition` hace una partición de Lomuto sobre el mismo arreglo. El pivote se elige mediante un índice aleatorio del segmento, se intercambia con `A[high]` y después continúa la partición. No se utilizan funciones de ordenamiento incorporadas.
 
 ## Método
 
