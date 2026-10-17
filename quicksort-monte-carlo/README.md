@@ -30,7 +30,7 @@ Requiere Python 3.10 o posterior. Desde esta carpeta:
 
 ```bash
 python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m pip install -r ../requirements.txt
 .venv/bin/python quicksort_monte_carlo.py
 ```
 

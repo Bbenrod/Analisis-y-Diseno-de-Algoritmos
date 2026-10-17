@@ -38,17 +38,15 @@ ADA-fibonacci-matricial/
 ├── fibonacci.py
 ├── exponenciacion_rapida.py
 ├── fibonacci_matricial.py
-├── README.md
-├── requirements.txt
-└── .gitignore
+└── README.md
 ```
 
-El directorio local puede conservar el nombre `fibonacci-exponenciacion`; los comandos se ejecutan desde su raíz.
+El directorio local puede conservar el nombre `fibonacci-matricial`; los comandos se ejecutan desde su raíz. Las dependencias se declaran en `../requirements.txt`.
 
 ## Requisitos e instalación
 
 - Python 3.10 o posterior.
-- pandas 2.3.3, declarado en `requirements.txt`.
+- pandas 2.3.3, declarado en el `requirements.txt` de la raíz del repositorio.
 
 Crear el entorno:
 
@@ -71,7 +69,7 @@ O en Windows PowerShell:
 Instalar la dependencia:
 
 ```bash
-python -m pip install -r requirements.txt
+python -m pip install -r ../requirements.txt
 ```
 
 ## Ejecución y pruebas
