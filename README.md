@@ -5,6 +5,7 @@ Ejercicios y proyectos de **Análisis y Diseño de Algoritmos (007343)**, Univer
 | Proyecto | Contenido |
 | --- | --- |
 | [DFS: componentes conexos](dfs_connected_components/) | Búsqueda en profundidad y [camino mínimo con Dijkstra](dijkstra_shortest_path/). |
+| [Sudoku mediante Backtracking](sudoku_backtracking/) | Plantilla con pseudocódigo, dos casos y pruebas para completar la solución. |
 | [Fibonacci matricial](fibonacci-matricial/) | Fibonacci por multiplicación matricial y exponenciación rápida. |
 | [QuickSort: análisis empírico mediante Monte Carlo](quicksort-monte-carlo/) | QuickSort con pivote aleatorio, 450 mediciones, datos y gráfica comparativa. |
 
